@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Nabs.Persistence" Version="8.0.80" />
+    <PackageReference Include="Nabs.Persistence" Version="8.0.81" />
   </ItemGroup>
 
 </Project>

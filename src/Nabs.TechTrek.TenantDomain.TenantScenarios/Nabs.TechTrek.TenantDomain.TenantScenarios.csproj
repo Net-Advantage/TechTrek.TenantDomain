@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Orleans.Runtime" Version="8.1.0" />
+		<PackageReference Include="Nabs.ActivityFramework" Version="8.0.85" />
+		<PackageReference Include="Microsoft.Orleans.Sdk" Version="8.1.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+		<PackageReference Include="Nabs.ScenarioGrains" Version="8.0.85" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Nabs.TechTrek.TenantDomain.TenantPersistence\Nabs.TechTrek.TenantDomain.TenantPersistence.csproj" />
+		<ProjectReference Include="..\Nabs.TechTrek.TenantDomain.TenantContracts\Nabs.TechTrek.TenantDomain.TenantContracts.csproj" />
+	</ItemGroup>
+
+</Project>
